@@ -1,8 +1,8 @@
 api_hash: fbed0648cea2c92293bd24fb1950cf37
 api_id: 24795901
 chat:
-- chat_id: -1001932120359
-  last_read_message_id: 0
+- chat_id: -1001764265727
+  last_read_message_id: 17702
 file_formats:
   audio:
   - all
@@ -19,7 +19,9 @@ file_path_prefix:
 - chat_title
 - media_datetime
 media_types:
-- photo
+- video
+- document
+- video_note
 save_path: F:\Downloads\JDown
 web_host: 127.0.0.1
 web_port: 5000
