@@ -1,7 +1,7 @@
-api_hash: your_api_hash
-api_id: your_api_id
+api_hash: fbed0648cea2c92293bd24fb1950cf37
+api_id: 24795901
 chat:
-- chat_id: telegram_chat_id
+- chat_id: -1001932120359
   last_read_message_id: 0
 file_formats:
   audio:
@@ -10,15 +10,18 @@ file_formats:
   - all
   video:
   - all
+file_name_prefix:
+- chat_title
+- message_id
+- file_name
+file_name_prefix_split: ' - '
 file_path_prefix:
 - chat_title
 - media_datetime
 media_types:
-- audio
 - photo
-- video
-- document
-- voice
-- video_note
-# in linux please use /
-# save_path: E:\github\telegram_media_downloader
+save_path: F:\Downloads\JDown
+web_host: 127.0.0.1
+web_port: 5000
+disable_syslog: []
+language: EN
